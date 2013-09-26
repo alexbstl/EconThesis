@@ -1,11 +1,11 @@
 package game;
 
 public class Bird {
-	private int type;
+	private int strategy;
 
 	public Bird(int type) {
 		super();
-		this.type = type;
+		this.strategy = type;
 	}
 	public int getType() {
 		return type;
