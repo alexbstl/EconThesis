@@ -8,10 +8,10 @@ public class Bird {
 		this.strategy = type;
 	}
 	public int getType() {
-		return type;
+		return strategy;
 	}
 
-	public void setType(int type) {
-		this.type = type;
+	public void setStrategy(int type) {
+		this.strategy = type;
 	}
 }
